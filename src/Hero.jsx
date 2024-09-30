@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-import Image1 from "./assets/Hero1.png";
+import Image1 from "./assets/Hero.png";
 
 const Hero = () => {
   const images = [
