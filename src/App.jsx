@@ -1,6 +1,6 @@
 import React from "react";
 import PopRockCrystalShop from "./PopRockCrystalShop";
-import "./styles.css"; // Include any additional styles
+import "./styles.css";
 
 const App = () => {
   return (
