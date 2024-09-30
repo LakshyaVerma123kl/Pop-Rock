@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "./assets/Hero.png";
+
 const ProductGrid = () => {
   const products = Array(8).fill({
     name: "CRYSTAL AGATE PHONE GRIP",
@@ -8,11 +9,13 @@ const ProductGrid = () => {
   });
 
   return (
-    <section className="py-12 px-6 bg-white">
+    <section className="py-8 md:py-12 px-4 md:px-6 bg-white">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold text-gray-800 mb-6">All product</h2>
-        <div className="flex justify-between items-center mb-6">
-          <div className="flex items-center">
+        <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">
+          All product
+        </h2>
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-6">
+          <div className="flex items-center mb-4 md:mb-0">
             <span className="mr-2 text-gray-600">Filter:</span>
             <select className="border border-gray-300 rounded px-4 py-2">
               <option>All Products</option>
@@ -25,7 +28,7 @@ const ProductGrid = () => {
             </select>
           </div>
         </div>
-        <div className="grid grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {products.map((product, index) => (
             <div key={index} className="bg-white rounded-lg shadow-lg p-4">
               <img
