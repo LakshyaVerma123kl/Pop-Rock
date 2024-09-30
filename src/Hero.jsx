@@ -25,7 +25,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="bg-gradient-to-b from-sky-400 via-blue-300 to-blue-200 pt-24 pb-12 px-4 md:px-6 min-h-screen flex items-center">
+    <section className="relative bg-gradient-to-b from-sky-400 via-blue-300 to-blue-200 pt-24 pb-12 px-4 md:px-6 min-h-screen flex items-center">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between">
         <div className="w-full md:w-1/2 pr-0 md:pr-8 mb-8 md:mb-0">
           <h1 className="text-3xl md:text-5xl font-bold text-white mb-4 leading-tight text-center md:text-left">
