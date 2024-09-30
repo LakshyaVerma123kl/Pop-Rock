@@ -3,7 +3,6 @@ import Header from "./Header";
 import Hero from "./Hero";
 import ProductGrid from "./ProductGrid";
 import BestPrice from "./BestPrice";
-import ScrollIndicator from "./ScrollIndicator";
 
 const PopRockCrystalShop = () => {
   return (
@@ -12,7 +11,6 @@ const PopRockCrystalShop = () => {
       <Hero />
       <ProductGrid />
       <BestPrice />
-      <ScrollIndicator />
     </div>
   );
 };

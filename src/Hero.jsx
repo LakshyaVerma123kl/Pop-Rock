@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import Image1 from "./assets/Hero.png";
+import ScrollIndicator from "./ScrollIndicator"; // Importing the ScrollIndicator
 
 const Hero = () => {
   const images = [
@@ -76,6 +77,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      <ScrollIndicator />
     </section>
   );
 };
